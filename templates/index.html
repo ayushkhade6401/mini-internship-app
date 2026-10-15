@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Internship Management System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <header>
+        <h1>Mini Internship Management System</h1>
+        <p>Manage internships, students, companies and required skills</p>
+    </header>
+
+    <main>
+
+        <section class="welcome">
+            <h2>Welcome to the Internship Management System</h2>
+            <p>
+                This application helps manage basic internship information
+                in a simple and organized way.
+            </p>
+        </section>
+
+        <section class="cards">
+
+            <div class="card">
+                <h3>🎓 Student / Intern</h3>
+                <p>Manage student name, course and internship details.</p>
+            </div>
+
+            <div class="card">
+                <h3>🏢 Company</h3>
+                <p>Store company name and internship opportunities.</p>
+            </div>
+
+            <div class="card">
+                <h3>📅 Duration</h3>
+                <p>View the start date, end date and internship duration.</p>
+            </div>
+
+            <div class="card">
+                <h3>💻 Required Skills</h3>
+                <p>View the technical skills required for the internship.</p>
+            </div>
+
+        </section>
+
+        <section class="internship">
+            <h2>Sample Internship</h2>
+
+            <div class="details">
+                <p><strong>Student:</strong> Rahul Sharma</p>
+                <p><strong>Company:</strong> Tech Solutions Pvt. Ltd.</p>
+                <p><strong>Role:</strong> Python Developer Intern</p>
+                <p><strong>Duration:</strong> 3 Months</p>
+                <p><strong>Skills:</strong> Python, Flask, Git, HTML, CSS</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Mini Internship Management System | DevOps Mini Project</p>
+    </footer>
+
+</body>
+</html>
